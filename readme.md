@@ -1,6 +1,6 @@
 # Flask Backend for Deep Learning Model Deployment
 
-This repository contains the code for deploying a deep learning model using Flask as a backend. The project aims to serve as a foundation for deploying deep learning models through A
+This repository contains the code for deploying a deep learning model using Flask as a backend. The project aims to serve as a foundation for deploying deep learning models through web services API.
 
 ## Project Overview
 
@@ -25,7 +25,8 @@ Follow these steps to get the project up and running:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the Flask application
+3. Put the random forest model in model directory
+4. Run the Flask application
    ```bash
    python app/app.py
    ```
