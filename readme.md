@@ -8,8 +8,18 @@ The project involves the following components:
 
 - Flask application for serving the model
 - Deep learning model (replace with the name and details of your model)
-- Model preprocessing and post-processing scripts
-- Docker setup for containerization (if applicable)
+
+## Project Structure
+```bash
+|__ app # contains the app sourcecode
+|  |__ app.py # flask script
+|  |__ random_forest.py # accesing model script
+|  |__ utils.py # data preprocessing and postprocessing
+|__ docs # contains the sourcecode docs
+|__ model # contains the model
+|__ requirements.txt # requirements module
+|__ readme.md # readme file
+```
 
 ## Getting Started
 
@@ -30,13 +40,3 @@ Follow these steps to get the project up and running:
    ```bash
    python app/app.py
    ```
-
-## Project Structure
-- /app
-  - app.py
-  - random_forest.py
-  - utils.py
-- /model
-  - model.pickle
-- requirements.txt
-- readme.md
