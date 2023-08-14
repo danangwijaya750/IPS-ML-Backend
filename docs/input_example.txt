@@ -1,0 +1,9 @@
+example :
+
+format :
+    [rssi_value];[wap_mac]
+
+separate each wap with ',' it will be like this :
+    [rssi_value_1];[wap_mac_1],[rssi_value_2];[wap_mac_2],[rssi_value_3];[wap_mac_3],....
+
+http://localhost:5000?rssi=100;90:3a:72:46:03:68,-60;90:3a:72:46:03:6c,-94;C3:52:58:A0:C9:AD,-54;D0:EB:B8:F7:B2:13,-64;FA:9B:B2:5A:1B:C1,-44;b0:be:76:41:c6:82,-105

@@ -16,6 +16,8 @@ def index():
 def predict():
     """
     Endpoint for predicting location using a trained random forest model.
+    Get the input RSSI data from the request. 
+    For the example of request data please check input_example.txt.
 
     Returns:
         str: The predicted location based on the input RSSI data.
